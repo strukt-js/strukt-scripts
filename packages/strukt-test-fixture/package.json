@@ -1,0 +1,24 @@
+{
+  "name": "@strukt-js/strukt-test-fixture",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "main": "./src/app.js",
+  "type": "module",
+  "devDependencies": {
+    "@strukt-js/strukt-scripts": "0.0.1"
+  },
+  "dependencies": {
+
+  },
+  "scripts": {
+    "lint": "strukt-scripts lint",
+    "test": "strukt-scripts test"
+  },
+  "strukt": {
+    "preset": "@strukt-js/strukt-preset"
+  },
+  "eslintConfig": {
+    "extends": "@strukt-js/eslint-config-strukt"
+  }
+}

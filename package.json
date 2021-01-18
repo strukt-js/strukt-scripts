@@ -1,0 +1,11 @@
+{
+  "name": "strukt-scripts",
+  "private": true,
+  "scripts": {
+    "test": "yarn workspace @strukt-js/strukt-test-fixture test",
+    "lint": "yarn workspace @strukt-js/strukt-test-fixture lint"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
