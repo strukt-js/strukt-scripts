@@ -28,7 +28,7 @@ in package.json add:
 }
 ```
 
-### VS Code Integration
+## VS Code Integration
 
 #### ESLint
 Add at your `project.json`.
