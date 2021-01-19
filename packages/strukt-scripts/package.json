@@ -16,8 +16,8 @@
     "strukt-scripts": "./app.js"
   },
   "dependencies": {
-    "@babel/core": "^7.12.10",
     "@strukt-js/strukt-preset": "*",
+    "@babel/core": "^7.12.10",
     "babel-loader": "^8.1.0",
     "chalk": "^4.1.0",
     "eslint": "^7.17.0",

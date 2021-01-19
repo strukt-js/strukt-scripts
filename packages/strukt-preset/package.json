@@ -5,8 +5,6 @@
   "main": "index.js",
   "type": "module",
   "dependencies": {
-    "@babel/core": "^7.12.10",
-    "eslint": "^7.17.0",
     "@strukt-js/babel-preset-strukt": "0.0.1",
     "@strukt-js/eslint-config-strukt": "0.0.1",
     "@strukt-js/jest-preset-strukt": "0.0.1"
