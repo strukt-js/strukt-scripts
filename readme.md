@@ -1,3 +1,5 @@
+![Build, Lint, Test](https://github.com/strukt-js/strukt-scripts/workflows/Build,%20Lint,%20Test/badge.svg?branch=main)
+
 # strukt-scripts
 
 This package includes scripts and configuration to maintain consistency used by Strukt components.
