@@ -1,5 +1,5 @@
 {
-  "name": "strukt-scripts",
+  "name": "@strukt-js/strukt-scripts-monorepo",
   "private": true,
   "scripts": {
     "postinstall": "lerna bootstrap",

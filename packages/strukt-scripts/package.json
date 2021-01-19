@@ -28,5 +28,8 @@
   },
   "eslintConfig": {
     "extends": "@strukt-js/eslint-config-strukt"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
