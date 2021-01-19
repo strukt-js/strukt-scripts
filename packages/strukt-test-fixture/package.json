@@ -1,12 +1,12 @@
 {
   "name": "@strukt-js/strukt-test-fixture",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "license": "MIT",
   "private": true,
   "main": "./src/app.js",
   "type": "module",
   "devDependencies": {
-    "@strukt-js/strukt-scripts": "^0.1.0"
+    "@strukt-js/strukt-scripts": "^0.2.0"
   },
   "scripts": {
     "lint": "strukt-scripts lint",

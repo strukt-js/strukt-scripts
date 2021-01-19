@@ -1,13 +1,13 @@
 {
   "name": "@strukt-js/strukt-preset",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Alex Wolff (@alexgwolff on github)",
   "main": "index.js",
   "type": "module",
   "dependencies": {
-    "@strukt-js/babel-preset-strukt": "^0.1.0",
-    "@strukt-js/eslint-config-strukt": "^0.1.0",
-    "@strukt-js/jest-preset-strukt": "^0.1.0"
+    "@strukt-js/babel-preset-strukt": "^0.2.0",
+    "@strukt-js/eslint-config-strukt": "^0.2.0",
+    "@strukt-js/jest-preset-strukt": "^0.2.0"
   },
   "eslintConfig": {
     "extends": "@strukt-js/eslint-config-strukt"
