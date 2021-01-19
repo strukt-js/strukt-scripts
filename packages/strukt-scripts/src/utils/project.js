@@ -42,7 +42,7 @@ export function getProjectConfig() {
 
 export function getArgsTaskObject(optionsParse = { 'strip-dashed': true }) {
   const { argsTask } = getProjectConfig();
-  const args = argsTask.filter((arg) => arg !== '--inspect-break');
+  const args = argsTask.filter((arg) => arg !== '--inspect-brk');
 
   const objectArgs = yargs(args).parserConfiguration(optionsParse).argv;
 
