@@ -1,8 +1,8 @@
 describe('Typescript Test', () => {
-  test('should allow other typescript files', async () => {
-    const { default: fn } = await import('./fnFixture');
+  test('should allow import other typescript files', async () => {
+    const module = await import('./fnFixture');
 
-    expect(fn).not.toBeNull();
-    expect(typeof fn).toBe('function');
+    expect(module).not.toBeNull();
+    expect(typeof module.fn).toBe('function');
   });
 });

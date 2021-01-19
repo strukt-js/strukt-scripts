@@ -25,6 +25,7 @@ export default class LintTask extends Task {
       const results = await linter.lintFiles(['src/**/*.{js,ts}']);
       const formatter = await linter.loadFormatter('stylish');
       const resultText = formatter.format(results);
+
       ESLint.outputFixes(results);
 
       const errorsAndWarningsCount = results.reduce(
