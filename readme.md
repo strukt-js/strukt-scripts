@@ -17,12 +17,29 @@ npm install @strukt-js/strukt-scripts --save-dev
 in package.json add:
 
 ```json
-"scripts": {
+{
+  "scripts": {
     "lint": "strukt-scripts lint",
-    "build": "strukt-scripts build",
     "test": "strukt-scripts test"
-},
+  },
+  "strukt": {
+    "preset": "@strukt-js/strukt-preset"
+  }
+}
 ```
+
+### VS Code Integration
+
+#### ESLint
+Add at your `project.json`.
+```json
+"eslintConfig": {
+    "extends": "@strukt-js/eslint-config-strukt"
+}
+```
+#### Jest Test (Future)
+
+
 
 
 
