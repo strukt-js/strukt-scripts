@@ -7,11 +7,11 @@ This package includes scripts and configuration to maintain consistency used by 
 ## Install
 
 ```shell
-yarn add @strukt-js/strukt-scripts@0.0.1 --dev
+yarn add @strukt-js/strukt-scripts --dev
 ```
 or
 ```shell
-npm install @strukt-js/strukt-scripts@0.0.1 --save-dev
+npm install @strukt-js/strukt-scripts --save-dev
 ```
 
 in package.json add:
