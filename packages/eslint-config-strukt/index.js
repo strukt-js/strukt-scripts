@@ -60,6 +60,8 @@ module.exports = {
     worker: true,
     serviceworker: true,
     es2021: true,
+    jest: true,
+    node: true,
   },
   reportUnusedDisableDirectives: true,
   overrides: [{ ...javascriptConfig }, { ...typescriptConfig }],
