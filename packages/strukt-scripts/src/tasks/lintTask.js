@@ -22,7 +22,7 @@ export default class LintTask extends Task {
 
     try {
       const linter = new ESLint(options);
-      const results = await linter.lintFiles(['src/**/*.{js,ts}']);
+      const results = await linter.lintFiles(['src/**/*.{js,ts, tsx}']);
       const formatter = await linter.loadFormatter('stylish');
       const resultText = formatter.format(results);
 
