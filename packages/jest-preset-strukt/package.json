@@ -3,6 +3,9 @@
   "version": "0.2.0",
   "author": "Alex Wolff (@alexgwolff on github)",
   "main": "./jest-preset.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@strukt-js/babel-preset-strukt": "^0.2.0",
     "@strukt-js/eslint-config-strukt": "^0.2.0"
@@ -13,7 +16,5 @@
   "peerDependencies": {
     "jest": "^26.6.3"
   },
-  "publishConfig": {
-    "access": "public"
-  }
+  "prettier": "@strukt-js/strukt-prettier-config"
 }

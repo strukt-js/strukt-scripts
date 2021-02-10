@@ -6,7 +6,13 @@ import { clear } from './console';
 
 const require = createRequire(import.meta.url);
 
-const [nodePath, , projectPath, taskName, ...argsToTask] = globalThis.process.argv;
+const [
+  nodePath,
+  ,
+  projectPath,
+  taskName,
+  ...argsToTask
+] = globalThis.process.argv;
 
 export function getPackageFile() {
   return require(`${projectPath}/package.json`);

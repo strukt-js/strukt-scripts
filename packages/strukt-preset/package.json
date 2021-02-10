@@ -4,6 +4,9 @@
   "author": "Alex Wolff (@alexgwolff on github)",
   "main": "index.js",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@strukt-js/babel-preset-strukt": "^0.2.0",
     "@strukt-js/eslint-config-strukt": "^0.2.0",
@@ -12,7 +15,5 @@
   "eslintConfig": {
     "extends": "@strukt-js/eslint-config-strukt"
   },
-  "publishConfig": {
-    "access": "public"
-  }
+  "prettier": "@strukt-js/strukt-prettier-config"
 }

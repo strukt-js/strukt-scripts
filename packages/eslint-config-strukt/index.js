@@ -1,4 +1,5 @@
 const babelPresetStrukt = require('@strukt-js/babel-preset-strukt');
+const prettierConfig = require('@strukt-js/strukt-prettier-config');
 
 const javascriptConfig = {
   parser: '@babel/eslint-parser',
@@ -11,7 +12,7 @@ const javascriptConfig = {
     },
   },
   files: '**.js',
-  plugins: ['@babel', 'import', 'jest'],
+  plugins: ['@babel', 'import', 'jest', 'prettier'],
   extends: [
     'eslint:recommended',
     'airbnb-base',
@@ -20,7 +21,17 @@ const javascriptConfig = {
     'plugin:import/typescript',
     'plugin:jest/recommended',
     'plugin:jest/style',
+    'prettier',
   ],
+  rules: {
+    'prettier/prettier': [
+      'error',
+      { ...prettierConfig },
+      {
+        usePrettierrc: false,
+      },
+    ],
+  },
 };
 
 const typescriptConfig = {
@@ -30,19 +41,27 @@ const typescriptConfig = {
     sourceType: 'module',
     requireConfigFile: false,
   },
-  files: '**.ts',
-  plugins: ['@typescript-eslint', 'import', 'jest'],
+  files: '**/*.{ts,tsx}',
+  plugins: ['@typescript-eslint', 'import', 'jest', 'prettier'],
   extends: [
     'eslint:recommended',
     'airbnb-base',
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:import/typescript',
+    'plugin:@typescript-eslint/recommended',
     'plugin:jest/recommended',
     'plugin:jest/style',
-    'plugin:@typescript-eslint/recommended',
+    'prettier',
   ],
   rules: {
+    'prettier/prettier': [
+      'error',
+      { ...prettierConfig },
+      {
+        usePrettierrc: false,
+      },
+    ],
     'import/extensions': [
       'error',
       'ignorePackages',
@@ -62,6 +81,7 @@ module.exports = {
     es2021: true,
     jest: true,
     node: true,
+    'jest/globals': true,
   },
   reportUnusedDisableDirectives: true,
   overrides: [{ ...javascriptConfig }, { ...typescriptConfig }],

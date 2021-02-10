@@ -1,0 +1,13 @@
+{
+  "name": "@strukt-js/strukt-prettier-config",
+  "version": "0.2.0",
+  "author": "Alex Wolff (@alexgwolff on github)",
+  "main": "index.js",
+  "devDependencies": {
+    "@strukt-js/strukt-scripts": "^0.2.0"
+  },
+  "eslintConfig": {
+    "extends": "@strukt-js/eslint-config-strukt"
+  },
+  "prettier": "./index.js"
+}
