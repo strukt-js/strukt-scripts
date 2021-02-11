@@ -16,6 +16,5 @@
   },
   "peerDependencies": {
     "@babel/core": "^7.12.10"
-  },
-  "prettier": "@strukt-js/strukt-prettier-config"
+  }
 }

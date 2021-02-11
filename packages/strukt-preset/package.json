@@ -10,10 +10,7 @@
   "dependencies": {
     "@strukt-js/babel-preset-strukt": "^0.2.0",
     "@strukt-js/eslint-config-strukt": "^0.2.0",
-    "@strukt-js/jest-preset-strukt": "^0.2.0"
-  },
-  "eslintConfig": {
-    "extends": "@strukt-js/eslint-config-strukt"
-  },
-  "prettier": "@strukt-js/strukt-prettier-config"
+    "@strukt-js/jest-preset-strukt": "^0.2.0",
+    "@strukt-js/prettier-config-strukt": "^0.2.0"
+  }
 }

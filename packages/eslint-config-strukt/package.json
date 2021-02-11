@@ -10,7 +10,7 @@
     "@babel/eslint-parser": "^7.12.1",
     "@babel/eslint-plugin": "^7.12.1",
     "@strukt-js/babel-preset-strukt": "^0.2.0",
-    "@strukt-js/strukt-prettier-config": "^0.2.0",
+    "@strukt-js/prettier-config-strukt": "^0.2.0",
     "@typescript-eslint/eslint-plugin": "^4.13.0",
     "@typescript-eslint/parser": "^4.13.0",
     "eslint-config-airbnb-base": "^14.2.1",
@@ -22,9 +22,5 @@
   },
   "peerDependencies": {
     "eslint": "^7.18.0"
-  },
-  "eslintConfig": {
-    "extends": "./index.js"
-  },
-  "prettier": "@strukt-js/strukt-prettier-config"
+  }
 }

@@ -18,5 +18,5 @@
   "eslintConfig": {
     "extends": "@strukt-js/eslint-config-strukt"
   },
-  "prettier": "@strukt-js/strukt-prettier-config"
+  "prettier": "@strukt-js/prettier-config-strukt"
 }

@@ -1,5 +1,5 @@
 const babelPresetStrukt = require('@strukt-js/babel-preset-strukt');
-const prettierConfig = require('@strukt-js/strukt-prettier-config');
+const prettierConfig = require('@strukt-js/prettier-config-strukt');
 
 const javascriptConfig = {
   parser: '@babel/eslint-parser',

@@ -1,4 +1,4 @@
-![Build, Lint, Test](https://github.com/strukt-js/strukt-scripts/workflows/Build,%20Lint,%20Test/badge.svg?branch=main)
+![Build Pipeline](https://github.com/strukt-js/strukt-scripts/workflows/Build,%20Lint,%20Test/badge.svg?branch=main)
 
 # strukt-scripts
 
@@ -31,7 +31,7 @@ in package.json add:
 ## VS Code Integration and others IDE's
 
 #### ESLint
-Add at `project.json`.
+Add at `project.json`
 ```json
 "eslintConfig": {
     "extends": "@strukt-js/eslint-config-strukt"
@@ -39,9 +39,9 @@ Add at `project.json`.
 ```
 
 #### Prettier
-Add at your `project.json`.
+Add at your `project.json`
 ```json
-"prettier": "@strukt-js/strukt-prettier-config"
+"prettier": "@strukt-js/prettier-config-strukt"
 ```
 
 ### Future Work
@@ -49,5 +49,5 @@ Add at your `project.json`.
 * Jest
 * LightHouse + ELK
 * Cypress
-* Pupperters 
+* Pupperters
 

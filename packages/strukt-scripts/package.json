@@ -3,11 +3,6 @@
   "version": "0.2.0",
   "type": "module",
   "main": "app.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/strukt-js/strukt-scripts",
-    "directory": "packages/strukt-scripts"
-  },
   "scripts": {
     "lint": "node ./app.js lint",
     "test": "node ./app.js test"
@@ -28,9 +23,5 @@
     "jest-circus": "^26.6.3",
     "typescript": "^4.1.3",
     "yargs": "^16.2.0"
-  },
-  "eslintConfig": {
-    "extends": "@strukt-js/eslint-config-strukt"
-  },
-  "prettier": "@strukt-js/strukt-prettier-config"
+  }
 }
