@@ -3,6 +3,10 @@ import { getPreset, getArgsTaskObject } from '../utils/project';
 import Task from './task';
 import Logger from '../logger/logger';
 
+function getErrorsAndWarningsCount(accumulator, result) {
+  return accumulator + result.warningCount + result.errorCount;
+}
+
 export default class LintTask extends Task {
   logger = new Logger('lint');
 
@@ -22,14 +26,15 @@ export default class LintTask extends Task {
 
     try {
       const linter = new ESLint(options);
-      const results = await linter.lintFiles(['src/**/*.{js,ts, tsx}']);
+      const results = await linter.lintFiles(['src/**/*.{js,ts,tsx}']);
       const formatter = await linter.loadFormatter('stylish');
       const resultText = formatter.format(results);
 
       ESLint.outputFixes(results);
 
       const errorsAndWarningsCount = results.reduce(
-        (acc, result) => acc + result.warningCount + result.errorCount, 0,
+        getErrorsAndWarningsCount,
+        0
       );
 
       this.logger.info(resultText);

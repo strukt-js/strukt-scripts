@@ -1,7 +1,7 @@
 module.exports = {
   presets: [
     ['@babel/preset-env', { targets: 'last 1 chrome version' }],
-    ['@babel/preset-typescript']
+    ['@babel/preset-typescript'],
   ],
   plugins: [
     '@babel/plugin-transform-runtime',

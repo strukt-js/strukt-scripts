@@ -26,7 +26,10 @@ if (!fs.existsSync(scriptPath)) {
   globalThis.process.exit(0);
 }
 
-const taskProcess = createSpawnProcess(scriptPath, [scriptName, ...argsToChild]);
+const taskProcess = createSpawnProcess(scriptPath, [
+  scriptName,
+  ...argsToChild,
+]);
 
 if (taskProcess.status !== 0) {
   process.exitCode = taskProcess.status;

@@ -3,6 +3,9 @@
   "version": "0.2.0",
   "author": "Alex Wolff (@alexgwolff on github)",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.12.1",
     "@babel/plugin-proposal-pipeline-operator": "^7.12.1",
@@ -14,7 +17,5 @@
   "peerDependencies": {
     "@babel/core": "^7.12.10"
   },
-  "publishConfig": {
-    "access": "public"
-  }
+  "prettier": "@strukt-js/strukt-prettier-config"
 }

@@ -28,18 +28,26 @@ in package.json add:
 }
 ```
 
-## VS Code Integration
+## VS Code Integration and others IDE's
 
 #### ESLint
-Add at your `project.json`.
+Add at `project.json`.
 ```json
 "eslintConfig": {
     "extends": "@strukt-js/eslint-config-strukt"
-}
+},
 ```
-#### Jest Test (Future)
 
+#### Prettier
+Add at your `project.json`.
+```json
+"prettier": "@strukt-js/strukt-prettier-config"
+```
 
-
-
+### Future Work
+* StyleLint
+* Jest
+* LightHouse + ELK
+* Cypress
+* Pupperters 
 

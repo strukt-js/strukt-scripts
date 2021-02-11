@@ -15,6 +15,9 @@
   "bin": {
     "strukt-scripts": "./app.js"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@babel/core": "^7.12.10",
     "@strukt-js/strukt-preset": "^0.2.0",
@@ -29,7 +32,5 @@
   "eslintConfig": {
     "extends": "@strukt-js/eslint-config-strukt"
   },
-  "publishConfig": {
-    "access": "public"
-  }
+  "prettier": "@strukt-js/strukt-prettier-config"
 }
