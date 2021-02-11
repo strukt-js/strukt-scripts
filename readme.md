@@ -31,7 +31,7 @@ in package.json add:
 ## VS Code Integration and others IDE's
 
 #### ESLint
-Add at `project.json`
+Add at your `project.json`
 ```json
 "eslintConfig": {
     "extends": "@strukt-js/eslint-config-strukt"
