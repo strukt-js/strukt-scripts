@@ -1,5 +1,4 @@
 import EventEmitter from 'events';
-import { log } from 'console';
 import { getProjectConfig, printBanner } from './utils/project';
 import TaskFactory from './tasks/taskFactory';
 
@@ -16,6 +15,5 @@ process.on('uncaughtException', () => {
 try {
   await task.start();
 } catch (error) {
-  log(error);
   new EventEmitter().emit('error');
 }
