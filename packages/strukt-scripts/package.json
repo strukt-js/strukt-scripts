@@ -1,6 +1,6 @@
 {
   "name": "@strukt-js/strukt-scripts",
-  "version": "0.2.0",
+  "version": "0.3.1",
   "type": "module",
   "main": "app.js",
   "scripts": {
@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.12.10",
-    "@strukt-js/strukt-preset": "^0.2.0",
+    "@strukt-js/strukt-preset": "^0.3.1",
     "babel-loader": "^8.1.0",
     "chalk": "^4.1.0",
     "eslint": "^7.17.0",
