@@ -3,6 +3,9 @@
   "version": "0.2.0",
   "author": "Alex Wolff (@alexgwolff on github)",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {},
   "dependencies": {}
 }
