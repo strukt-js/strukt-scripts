@@ -36,6 +36,9 @@ jobs:
       matrix:
         node-version: [14.x]
     steps:
+      - name: Setup core.autocrlf false
+        run: git config --global core.autocrlf false
+
       - name: Clone Repository
         uses: actions/checkout@v2
 
