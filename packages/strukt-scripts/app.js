@@ -1,11 +1,9 @@
 #!/usr/bin/env node
-
 /* eslint-disable import/extensions */
 
 import path from 'path';
 import fs from 'fs';
 import { fileURLToPath } from 'url';
-
 import createSpawnProcess from './src/utils/process.js';
 
 const [, , scriptName, ...argsToChild] = process.argv;
