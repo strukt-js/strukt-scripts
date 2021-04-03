@@ -8,7 +8,7 @@ function getErrorsAndWarningsCount(accumulator, result) {
 }
 
 export default class EslintTask extends Task {
-  logger = new Logger('lint:eslint');
+  logger = new Logger('lint:eslint:');
 
   async start() {
     this.logger.debug('Started');
