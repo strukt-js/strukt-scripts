@@ -4,8 +4,8 @@ import { getPreset, getArgsTaskObject } from '../utils/project';
 import Task from './task';
 import Logger from '../logger/logger';
 
-export default class TestTask extends Task {
-  logger = new Logger('test');
+export default class Eslint extends Task {
+  logger = new Logger('test:[jest]');
 
   async start() {
     this.logger.debug('Started');
