@@ -5,7 +5,7 @@ import Task from './task';
 import Logger from '../logger/logger';
 
 export default class Eslint extends Task {
-  logger = new Logger('test:jest');
+  logger = new Logger('test:jest:');
 
   async start() {
     this.logger.debug('Started');
