@@ -1,13 +1,13 @@
-import LintTask from './lintTask';
-import TestTask from './testTask';
+import EslintTask from './eslint';
+import JestTask from './jest';
 
 export default function TaskFactory(taskName) {
   if (taskName === 'lint') {
-    return new LintTask();
+    return new EslintTask();
   }
 
   if (taskName === 'test') {
-    return new TestTask();
+    return new JestTask();
   }
 
   return null;
