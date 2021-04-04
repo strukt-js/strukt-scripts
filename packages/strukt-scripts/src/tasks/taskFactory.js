@@ -1,18 +1,18 @@
-import LintTask from './lintTask';
-import TestTask from './testTask';
-import StoryBookTest from './storybook';
+import EslintTask from './eslint';
+import JestTask from './jest';
+import StoryBookTask from './storybook';
 
 export default function TaskFactory(taskName) {
   if (taskName === 'lint') {
-    return new LintTask();
+    return new EslintTask();
   }
 
   if (taskName === 'test') {
-    return new TestTask();
+    return new JestTask();
   }
 
-  if (taskName === 'dev:storybook') {
-    return new StoryBookTest();
+  if (taskName === 'storybook') {
+    return new StoryBookTask();
   }
 
   return null;
