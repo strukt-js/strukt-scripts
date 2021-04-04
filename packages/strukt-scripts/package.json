@@ -1,6 +1,6 @@
 {
   "name": "@strukt-js/strukt-scripts",
-  "version": "0.4.0",
+  "version": "0.3.2",
   "type": "module",
   "main": "app.js",
   "scripts": {

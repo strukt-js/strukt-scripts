@@ -1,6 +1,6 @@
 {
   "name": "@strukt-js/jest-preset-strukt",
-  "version": "0.4.0",
+  "version": "0.3.2",
   "author": "Alex Wolff (@alexgwolff on github)",
   "main": "./jest-preset.js",
   "publishConfig": {
