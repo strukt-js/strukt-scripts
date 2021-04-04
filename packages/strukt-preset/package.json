@@ -1,6 +1,6 @@
 {
   "name": "@strukt-js/strukt-preset",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "author": "Alex Wolff (@alexgwolff on github)",
   "main": "index.js",
   "type": "module",
