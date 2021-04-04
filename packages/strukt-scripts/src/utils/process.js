@@ -3,6 +3,7 @@ import { spawnSync } from 'child_process';
 function createSpawnProcess(pathScript, argsToChild = []) {
   const nodeArgs = [
     '--experimental-specifier-resolution=node',
+    '--experimental-import-meta-resolve',
     '--experimental-top-level-await',
     '--experimental-vm-modules',
     '--no-warnings',

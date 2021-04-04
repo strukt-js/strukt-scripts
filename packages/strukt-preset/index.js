@@ -1,6 +1,7 @@
 import eslintConfig from '@strukt-js/eslint-config-strukt';
 import jestConfig from '@strukt-js/jest-preset-strukt';
 import babelConfig from '@strukt-js/babel-preset-strukt';
+import storybookConfig from '@strukt-js/storybook-preset-strukt';
 
 export const banner = `
 ███████╗████████╗██████╗ ██╗   ██╗██╗  ██╗████████╗
@@ -24,4 +25,9 @@ export const jestPreset = {
 export const babelPreset = {
   name: '@strukt-js/babel-preset-strukt',
   config: babelConfig,
+};
+
+export const storyBookPreset = {
+  name: '@strukt-js/storybook-preset-strukt',
+  config: storybookConfig,
 };

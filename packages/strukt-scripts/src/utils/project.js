@@ -1,7 +1,9 @@
 /* eslint-disable import/no-dynamic-require */
+import url from 'url';
+import path from 'path';
+import { createRequire } from 'module';
 import { log } from 'console';
 import yargs from 'yargs';
-import { createRequire } from 'module';
 import { clear } from './console';
 
 const require = createRequire(import.meta.url);
@@ -56,4 +58,9 @@ export function getArgsTaskObject(optionsParse = { 'strip-dashed': true }) {
   Reflect.deleteProperty(objectArgs, '_');
 
   return objectArgs;
+}
+
+export async function resolvePackageDir(packageName) {
+  return path.parse(new URL(await import.meta.resolve(packageName)).pathname)
+    .dir;
 }

@@ -11,7 +11,8 @@
     "@strukt-js/babel-preset-strukt": "^0.3.2",
     "@strukt-js/eslint-config-strukt": "^0.3.2",
     "@strukt-js/jest-preset-strukt": "^0.3.2",
-    "@strukt-js/prettier-config-strukt": "^0.3.2"
+    "@strukt-js/prettier-config-strukt": "^0.3.2",
+    "@strukt-js/storybook-preset-strukt": "^0.3.2"
   },
   "peerDependencies": {
     "@babel/core": "^7.12.10",
