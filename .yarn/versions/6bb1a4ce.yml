@@ -1,0 +1,8 @@
+undecided:
+  - "@strukt-js/strukt-scripts-monorepo"
+  - "@strukt-js/eslint-config-strukt"
+  - "@strukt-js/jest-preset-strukt"
+  - "@strukt-js/storybook-preset-strukt"
+  - "@strukt-js/strukt-preset"
+  - "@strukt-js/strukt-scripts"
+  - "@strukt-js/strukt-test-fixture"
