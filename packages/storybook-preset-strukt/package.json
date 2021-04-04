@@ -1,0 +1,24 @@
+{
+  "name": "@strukt-js/storybook-preset-strukt",
+  "version": "0.3.2",
+  "author": "Alex Wolff (@alexgwolff on github)",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@storybook/addon-essentials": "^6.2.2",
+    "@storybook/core": "^6.2.2",
+    "@storybook/core-client": "^6.2.2",
+    "progress-bar-webpack-plugin": "^2.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.x.x",
+    "babel-loader": "^8.x.x",
+    "typescript": "^4.x.x",
+    "webpack": "^4.x.x"
+  }
+}

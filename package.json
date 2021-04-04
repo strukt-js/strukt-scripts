@@ -2,7 +2,6 @@
   "name": "@strukt-js/strukt-scripts-monorepo",
   "private": true,
   "scripts": {
-    "postinstall": "lerna bootstrap",
     "test": "yarn workspace @strukt-js/strukt-test-fixture test",
     "lint": "yarn workspace @strukt-js/strukt-test-fixture lint"
   },
