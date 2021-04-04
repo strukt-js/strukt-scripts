@@ -1,15 +1,12 @@
 {
   "name": "@strukt-js/strukt-scripts-monorepo",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.3.2",
   "scripts": {
     "test": "yarn workspace @strukt-js/strukt-test-fixture test",
     "lint": "yarn workspace @strukt-js/strukt-test-fixture lint"
   },
   "workspaces": [
     "packages/*"
-  ],
-  "devDependencies": {
-    "lerna": "^3.22.1"
-  }
+  ]
 }
