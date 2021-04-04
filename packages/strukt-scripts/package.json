@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.13.14",
-    "@strukt-js/strukt-preset": "^0.3.2",
+    "@strukt-js/strukt-preset": "workspace:*",
     "babel-loader": "^8.x.x",
     "chalk": "^4.1.0",
     "eslint": "^7.17.0",

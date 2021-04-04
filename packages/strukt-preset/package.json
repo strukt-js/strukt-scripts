@@ -8,10 +8,10 @@
     "access": "public"
   },
   "dependencies": {
-    "@strukt-js/babel-preset-strukt": "^0.3.2",
-    "@strukt-js/eslint-config-strukt": "^0.3.2",
-    "@strukt-js/jest-preset-strukt": "^0.3.2",
-    "@strukt-js/prettier-config-strukt": "^0.3.2"
+    "@strukt-js/babel-preset-strukt": "workspace:*",
+    "@strukt-js/eslint-config-strukt": "workspace:*",
+    "@strukt-js/jest-preset-strukt": "workspace:*",
+    "@strukt-js/prettier-config-strukt": "workspace:*"
   },
   "peerDependencies": {
     "@babel/core": "^7.x.x",

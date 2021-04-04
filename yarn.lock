@@ -3882,7 +3882,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@strukt-js/babel-preset-strukt@^0.3.2, @strukt-js/babel-preset-strukt@workspace:packages/babel-preset-strukt":
+"@strukt-js/babel-preset-strukt@workspace:*, @strukt-js/babel-preset-strukt@workspace:packages/babel-preset-strukt":
   version: 0.0.0-use.local
   resolution: "@strukt-js/babel-preset-strukt@workspace:packages/babel-preset-strukt"
   dependencies:
@@ -3897,14 +3897,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@strukt-js/eslint-config-strukt@^0.3.2, @strukt-js/eslint-config-strukt@workspace:packages/eslint-config-strukt":
+"@strukt-js/eslint-config-strukt@workspace:*, @strukt-js/eslint-config-strukt@workspace:packages/eslint-config-strukt":
   version: 0.0.0-use.local
   resolution: "@strukt-js/eslint-config-strukt@workspace:packages/eslint-config-strukt"
   dependencies:
     "@babel/eslint-parser": ^7.13.14
     "@babel/eslint-plugin": ^7.13.10
-    "@strukt-js/babel-preset-strukt": ^0.3.2
-    "@strukt-js/prettier-config-strukt": ^0.3.2
+    "@strukt-js/babel-preset-strukt": "workspace:*"
+    "@strukt-js/prettier-config-strukt": "workspace:*"
     "@typescript-eslint/eslint-plugin": ^4.20.0
     "@typescript-eslint/parser": ^4.20.0
     eslint-config-airbnb-base: ^14.2.1
@@ -3919,12 +3919,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@strukt-js/jest-preset-strukt@^0.3.2, @strukt-js/jest-preset-strukt@workspace:packages/jest-preset-strukt":
+"@strukt-js/jest-preset-strukt@workspace:*, @strukt-js/jest-preset-strukt@workspace:packages/jest-preset-strukt":
   version: 0.0.0-use.local
   resolution: "@strukt-js/jest-preset-strukt@workspace:packages/jest-preset-strukt"
   dependencies:
-    "@strukt-js/babel-preset-strukt": ^0.3.2
-    "@strukt-js/eslint-config-strukt": ^0.3.2
+    "@strukt-js/babel-preset-strukt": "workspace:*"
+    "@strukt-js/eslint-config-strukt": "workspace:*"
   peerDependencies:
     "@babel/core": ^7.x.x
     eslint: ^7.x.x
@@ -3933,7 +3933,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@strukt-js/prettier-config-strukt@^0.3.2, @strukt-js/prettier-config-strukt@workspace:packages/prettier-config-strukt":
+"@strukt-js/prettier-config-strukt@workspace:*, @strukt-js/prettier-config-strukt@workspace:packages/prettier-config-strukt":
   version: 0.0.0-use.local
   resolution: "@strukt-js/prettier-config-strukt@workspace:packages/prettier-config-strukt"
   languageName: unknown
@@ -3947,24 +3947,24 @@ __metadata:
     "@storybook/core": ^6.2.2
     "@storybook/core-client": ^6.2.2
     progress-bar-webpack-plugin: ^2.1.0
-    react: ^17.0.2
-    react-dom: ^17.0.2
   peerDependencies:
     "@babel/core": ^7.x.x
     babel-loader: ^8.x.x
+    react: ^17.x.x
+    react-dom: ^17.x.x
     typescript: ^4.x.x
     webpack: ^4.x.x
   languageName: unknown
   linkType: soft
 
-"@strukt-js/strukt-preset@^0.3.2, @strukt-js/strukt-preset@workspace:packages/strukt-preset":
+"@strukt-js/strukt-preset@workspace:*, @strukt-js/strukt-preset@workspace:packages/strukt-preset":
   version: 0.0.0-use.local
   resolution: "@strukt-js/strukt-preset@workspace:packages/strukt-preset"
   dependencies:
-    "@strukt-js/babel-preset-strukt": ^0.3.2
-    "@strukt-js/eslint-config-strukt": ^0.3.2
-    "@strukt-js/jest-preset-strukt": ^0.3.2
-    "@strukt-js/prettier-config-strukt": ^0.3.2
+    "@strukt-js/babel-preset-strukt": "workspace:*"
+    "@strukt-js/eslint-config-strukt": "workspace:*"
+    "@strukt-js/jest-preset-strukt": "workspace:*"
+    "@strukt-js/prettier-config-strukt": "workspace:*"
   peerDependencies:
     "@babel/core": ^7.x.x
     babel-loader: ^8.x.x
@@ -3983,12 +3983,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@strukt-js/strukt-scripts@^0.3.2, @strukt-js/strukt-scripts@workspace:packages/strukt-scripts":
+"@strukt-js/strukt-scripts@workspace:*, @strukt-js/strukt-scripts@workspace:packages/strukt-scripts":
   version: 0.0.0-use.local
   resolution: "@strukt-js/strukt-scripts@workspace:packages/strukt-scripts"
   dependencies:
     "@babel/core": ^7.13.14
-    "@strukt-js/strukt-preset": ^0.3.2
+    "@strukt-js/strukt-preset": "workspace:*"
     babel-loader: ^8.x.x
     chalk: ^4.1.0
     eslint: ^7.17.0
@@ -4008,7 +4008,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@strukt-js/strukt-test-fixture@workspace:packages/strukt-test-fixture"
   dependencies:
-    "@strukt-js/strukt-scripts": ^0.3.2
+    "@strukt-js/strukt-scripts": "workspace:*"
+    typescript: ^4.2.3
   languageName: unknown
   linkType: soft
 
@@ -12008,7 +12009,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"loose-envify@npm:^1.0.0, loose-envify@npm:^1.1.0, loose-envify@npm:^1.4.0":
+"loose-envify@npm:^1.0.0, loose-envify@npm:^1.4.0":
   version: 1.4.0
   resolution: "loose-envify@npm:1.4.0"
   dependencies:
@@ -14653,19 +14654,6 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^17.0.2":
-  version: 17.0.2
-  resolution: "react-dom@npm:17.0.2"
-  dependencies:
-    loose-envify: ^1.1.0
-    object-assign: ^4.1.1
-    scheduler: ^0.20.2
-  peerDependencies:
-    react: 17.0.2
-  checksum: 960a74ff6670766846a73097a599115963df1574833c59ca0c2fd909758ebe7a6214cd14f5e6aa63ce846d8f39fde7f3b80474ccfcfadc45dd7f3246364718c6
-  languageName: node
-  linkType: hard
-
 "react-draggable@npm:^4.4.3":
   version: 4.4.3
   resolution: "react-draggable@npm:4.4.3"
@@ -14820,16 +14808,6 @@ fsevents@^1.2.7:
   peerDependencies:
     react: ^16.8.0 || ^17.0.0
   checksum: 1f38e0bcc8571819f026050f04d65e2d27f1f005349dd0b3b01034e3b4612f75dd30690946ca2a1a8f4ffcc10cef48fb1922ca73111bfe71c43951f1f75944f9
-  languageName: node
-  linkType: hard
-
-"react@npm:^17.0.2":
-  version: 17.0.2
-  resolution: "react@npm:17.0.2"
-  dependencies:
-    loose-envify: ^1.1.0
-    object-assign: ^4.1.1
-  checksum: 7d0dfebafe1d297503157abb2e9acdb49852185deb8700c16f4a6faad87642f84903ab18cfc16f40b9a0dfe97540f99834982ee953e6d48b39c41608dc3e4b29
   languageName: node
   linkType: hard
 
@@ -15601,16 +15579,6 @@ fsevents@^1.2.7:
   dependencies:
     xmlchars: ^2.2.0
   checksum: 6ad14be68da9b84af0fa3de346fd78bd3a8e8a73a462e2852279a1fff1e2619988919294001abe3ecef3783f9498962a0619d960ccca4ec2ca914526fde1acc2
-  languageName: node
-  linkType: hard
-
-"scheduler@npm:^0.20.2":
-  version: 0.20.2
-  resolution: "scheduler@npm:0.20.2"
-  dependencies:
-    loose-envify: ^1.1.0
-    object-assign: ^4.1.1
-  checksum: 2ba121e53e8a438394598612ec9a8f465b39157042f912d2dd5956af643e0d45ec6937ae4eeb0a807d1945b209515263aed12fc3bca95c7a027ec2a54e76b399
   languageName: node
   linkType: hard
 
@@ -17242,6 +17210,26 @@ fsevents@^1.2.7:
   version: 0.0.6
   resolution: "typedarray@npm:0.0.6"
   checksum: c9ef0176aaf32593514c31e5c6edc1db970847aff6e1f0a0570a6ac0cc996335792f394c2fcec59cc76691d22a01888ea073a2f3c6930cfcf7c519addf4e2ad7
+  languageName: node
+  linkType: hard
+
+typescript@^4.2.3:
+  version: 4.2.3
+  resolution: "typescript@npm:4.2.3"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 06e8470f317db6f5e2fce809b20eb84a67a7d8179057abff36e5427bd1b891bd08e54581ff81f0fa36aef9b6d1eb0f54eaf6e2643c6dbd4e37a0adcc41eed256
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@^4.2.3#builtin<compat/typescript>":
+  version: 4.2.3
+  resolution: "typescript@patch:typescript@npm%3A4.2.3#builtin<compat/typescript>::version=4.2.3&hash=a45b0e"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: a8956044aabf730699bcc3c2475efdd3f35e509329325cf60b4989761d4c2188e2c474183e2cf92b8c201fcf976814a5a16f144508b2a832643c4f972d0ab803
   languageName: node
   linkType: hard
 
