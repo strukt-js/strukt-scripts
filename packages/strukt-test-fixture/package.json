@@ -5,9 +5,6 @@
   "private": true,
   "main": "./src/app.js",
   "type": "module",
-  "devDependencies": {
-    "@strukt-js/strukt-scripts": "^0.3.2"
-  },
   "scripts": {
     "lint": "strukt-scripts lint",
     "test": "strukt-scripts test"
@@ -19,5 +16,10 @@
     "extends": "@strukt-js/eslint-config-strukt"
   },
   "prettier": "@strukt-js/prettier-config-strukt",
-  "dependencies": {}
+  "devDependencies": {
+    "@strukt-js/strukt-scripts": "workspace:*"
+  },
+  "dependencies": {
+    "typescript": "^4.2.3"
+  }
 }

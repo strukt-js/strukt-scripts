@@ -104,3 +104,11 @@ dist
 .tern-port
 
 .DS_Store
+
+# This is temporary
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
