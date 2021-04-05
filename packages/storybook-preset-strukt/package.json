@@ -12,15 +12,15 @@
     "@storybook/addon-essentials": "^6.2.2",
     "@storybook/core": "^6.2.2",
     "@storybook/web-components": "^6.2.2",
+    "babel-loader": "^8.2.2",
     "progress-bar-webpack-plugin": "^2.1.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "webpack": "^5.30.0"
   },
   "peerDependencies": {
     "@babel/core": "^7.x.x",
-    "babel-loader": "^8.x.x",
     "lit-html": "^1.x.x",
-    "typescript": "^4.x.x",
-    "webpack": "^5.x.x"
+    "typescript": "^4.x.x"
   }
 }
