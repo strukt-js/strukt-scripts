@@ -1,6 +1,6 @@
 {
   "name": "@strukt-js/storybook-preset-strukt",
-  "version": "0.3.2",
+  "version": "0.4.1",
   "author": "Alex Wolff (@alexgwolff on github)",
   "main": "index.js",
   "type": "module",
