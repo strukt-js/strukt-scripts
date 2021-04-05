@@ -2966,7 +2966,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@strukt-js/strukt-preset@workspace:*, @strukt-js/strukt-preset@workspace:packages/strukt-preset":
+"@strukt-js/strukt-preset@workspace:packages/strukt-preset":
   version: 0.0.0-use.local
   resolution: "@strukt-js/strukt-preset@workspace:packages/strukt-preset"
   dependencies:
@@ -2998,7 +2998,6 @@ __metadata:
   resolution: "@strukt-js/strukt-scripts@workspace:packages/strukt-scripts"
   dependencies:
     "@babel/core": ^7.13.14
-    "@strukt-js/strukt-preset": "workspace:*"
     babel-loader: ^8.2.2
     chalk: ^4.1.0
     eslint: ^7.17.0
