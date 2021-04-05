@@ -7,7 +7,8 @@
   "type": "module",
   "scripts": {
     "lint": "strukt-scripts lint",
-    "test": "strukt-scripts test"
+    "test": "strukt-scripts test",
+    "storybook": "strukt-scripts storybook"
   },
   "strukt": {
     "preset": "@strukt-js/strukt-preset"
@@ -20,6 +21,8 @@
     "@strukt-js/strukt-scripts": "workspace:*"
   },
   "dependencies": {
+    "lit-element": "^2.4.0",
+    "lit-html": "^1.3.0",
     "typescript": "^4.2.3"
   }
 }

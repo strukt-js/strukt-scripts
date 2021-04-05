@@ -1,3 +1,3 @@
 export default {
-  framework: 'react',
+  framework: 'web-components',
 };
