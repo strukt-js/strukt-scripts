@@ -23,14 +23,19 @@ export default class StoryBookTask extends Task {
         )
       ).default;
 
+      const { mode, outputDir, otherArgs } = args;
+
       const configDir = await resolvePackageDir(storyBookPreset.name);
+
+      process.env.NODE_ENV = 'development';
 
       return await standalone({
         rootDir: getProjectRoot(),
-        mode: args.mode ?? 'dev',
+        mode: mode ?? 'dev',
         configDir,
-        outputDir: `${getProjectRoot()}//dist/storybook`,
+        outputDir: outputDir ? `${getProjectRoot()}//${outputDir}` : null,
         quiet: true,
+        ...otherArgs,
       });
     } catch (error) {
       this.logger.info(error);

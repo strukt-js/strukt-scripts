@@ -24,7 +24,7 @@ export default class Eslint extends Task {
         return Promise.resolve(results);
       }
 
-      return Promise.reject(results);
+      return Promise.reject();
     } catch (error) {
       return Promise.reject(error);
     } finally {

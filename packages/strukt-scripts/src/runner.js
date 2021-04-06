@@ -15,5 +15,6 @@ process.on('uncaughtException', () => {
 try {
   await task.start();
 } catch (error) {
+  console.log(error);
   new EventEmitter().emit('error');
 }
