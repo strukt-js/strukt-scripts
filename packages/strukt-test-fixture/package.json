@@ -1,6 +1,6 @@
 {
   "name": "@strukt-js/strukt-test-fixture",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "license": "MIT",
   "private": true,
   "main": "./src/app.js",
