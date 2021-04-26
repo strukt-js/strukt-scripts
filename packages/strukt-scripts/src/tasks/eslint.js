@@ -39,11 +39,11 @@ export default class EslintTask extends Task {
       if (resultText) {
         this.logger.info(resultText);
       } else {
-        this.logger.info('🎉 Cool, theres no lint problems in your code');
+        this.logger.info("🎉 Cool, there's no lint problems in your code");
       }
 
       if (errorsAndWarningsCount > 0) {
-        return Promise.reject(results);
+        return Promise.reject();
       }
 
       return Promise.resolve(results);

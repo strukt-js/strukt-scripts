@@ -1,6 +1,6 @@
 {
   "name": "@strukt-js/eslint-config-strukt",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "author": "Alex Wolff (@alexgwolff on github)",
   "main": "index.js",
   "publishConfig": {

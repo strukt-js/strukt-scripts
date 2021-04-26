@@ -1,6 +1,6 @@
 {
   "name": "@strukt-js/strukt-scripts",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "type": "module",
   "main": "app.js",
   "scripts": {
@@ -12,9 +12,9 @@
     "access": "public"
   },
   "dependencies": {
-    "@babel/core": "^7.13.14",
-    "chalk": "^4.1.0",
-    "eslint": "^7.17.0",
+    "@babel/core": "^7.13.16",
+    "chalk": "^4.1.1",
+    "eslint": "^7.25.0",
     "jest": "^26.6.3",
     "jest-circus": "^26.6.3",
     "prettier": "^2.2.1",
