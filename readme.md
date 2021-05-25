@@ -2,7 +2,10 @@
 
 # strukt-scripts
 
-This package includes scripts and configuration to maintain consistency used by Strukt components.
+This package includes scripts and configuration to maintain consistency used by Strukt projects (Javascript and Typescript).
+
+### Requisites 
+ - Node 15+
 
 ## Install
 
@@ -50,4 +53,5 @@ Add at your `project.json`
 * LightHouse + ELK
 * Cypress
 * Pupperters
+* Stoybook
 
