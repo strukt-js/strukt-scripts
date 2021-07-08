@@ -2,19 +2,18 @@
 
 # strukt-scripts
 
-This package includes scripts and configuration to maintain consistency used by Strukt projects (Javascript and Typescript).
+strukt-scripts is a tool with a simple preset which lets you build javascripts and typescript projects with shared presets across your organization.
 
 ### Requisites 
- - Node 15+
+ - Node 15+ 
+ - Yarn 
 
+<sub> * NPM is not supported </sub>
+ 
 ## Install
 
 ```shell
 yarn add @strukt-js/strukt-scripts --dev
-```
-or
-```shell
-npm install @strukt-js/strukt-scripts --save-dev
 ```
 
 in package.json add:
@@ -23,12 +22,19 @@ in package.json add:
 {
   "scripts": {
     "lint": "strukt-scripts lint",
-    "test": "strukt-scripts test"
+    "test": "strukt-scripts test",
+    "storybook": "strukt-scripts storybook",
   },
   "strukt": {
     "preset": "@strukt-js/strukt-preset"
   }
 }
+```
+
+#### Typescript
+Add at your `tsconfig.json`
+```json
+  "extends": "@orbitpages/typescript-config-strukt"
 ```
 
 ## VS Code Integration and others IDE's
@@ -52,6 +58,4 @@ Add at your `project.json`
 * Jest
 * LightHouse + ELK
 * Cypress
-* Pupperters
-* Stoybook
 
