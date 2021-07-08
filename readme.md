@@ -2,7 +2,7 @@
 
 # strukt-scripts
 
-strukt-scripts is a tool ans simple preset which lets you build javascripts projects with shared presets across your organization.
+strukt-scripts is a tool ans simple preset which lets you build javascripts and typescript projects with shared presets across your organization.
 
 ### Requisites 
  - Node 15+ 
