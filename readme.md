@@ -31,12 +31,6 @@ in package.json add:
 }
 ```
 
-#### Typescript
-Add at your `tsconfig.json`
-```json
-  "extends": "@orbitpages/typescript-config-strukt"
-```
-
 ## VS Code Integration and others IDE's
 
 #### ESLint
