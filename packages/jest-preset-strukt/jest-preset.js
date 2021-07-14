@@ -15,5 +15,5 @@ module.exports = {
       functions: 95,
     },
   },
-  transform: { '\\.[jt]sx?$': ['babel-jest', { ...babelConfig }] },
+  transform: { '\\.[jt]sx?$': ['babel-jest', { ...babelConfig() }] },
 };

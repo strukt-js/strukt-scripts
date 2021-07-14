@@ -12,6 +12,7 @@
     "@strukt-js/eslint-config-strukt": "workspace:*",
     "@strukt-js/jest-preset-strukt": "workspace:*",
     "@strukt-js/prettier-config-strukt": "workspace:*",
+    "@strukt-js/rollup-config-strukt": "workspace:*",
     "@strukt-js/storybook-preset-strukt": "workspace:*"
   },
   "peerDependencies": {

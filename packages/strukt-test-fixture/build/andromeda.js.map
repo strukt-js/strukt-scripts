@@ -1,0 +1,1 @@
+{"version":3,"file":"andromeda.js","sources":["../src/typescript/fnFixture.ts","../src/app.ts"],"sourcesContent":["export function fn(n: number): number {\n  return n * 2;\n}\n\nexport const value = 'value';\n","import * as App from './typescript/fnFixture';\n\nconsole.log(App);\n"],"names":["n","console","log","App"],"mappings":"kDAAmBA,UACN,EAAJA,SAGY,UCFrBC,QAAQC,IAAIC"}
