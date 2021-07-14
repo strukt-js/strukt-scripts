@@ -7,9 +7,7 @@ const javascriptConfig = {
     ecmaVersion: 2021,
     sourceType: 'module',
     requireConfigFile: false,
-    babelOptions: {
-      ...babelPresetStrukt,
-    },
+    babelOptions: babelPresetStrukt(),
   },
   files: '**.js',
   plugins: ['@babel', 'import', 'jest', 'prettier'],

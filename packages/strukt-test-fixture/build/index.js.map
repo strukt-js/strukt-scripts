@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../src/typescript/fnFixture.ts"],"sourcesContent":["export function fn(n: number): number {\n  return n * 2;\n}\n\nexport const value = 'value';\n"],"names":["n"],"mappings":"kDAAmBA,UACN,EAAJA,SAGY"}

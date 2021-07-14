@@ -23,7 +23,7 @@ export default class StoryBookTask extends Task {
         )
       ).default;
 
-      const { mode, outputDir, ...otherArgs } = args;
+      const { mode, outputDir = 'storybook', ...otherArgs } = args;
 
       const configDir = await resolvePackageDir(storyBookPreset.name);
 
@@ -34,7 +34,7 @@ export default class StoryBookTask extends Task {
         mode: mode ?? 'dev',
         port: 9003,
         configDir,
-        outputDir: outputDir ? `${getProjectRoot()}//${outputDir}` : null,
+        outputDir: outputDir ? `${getProjectRoot()}//dist//${outputDir}` : null,
         ...otherArgs,
       });
     } catch (error) {

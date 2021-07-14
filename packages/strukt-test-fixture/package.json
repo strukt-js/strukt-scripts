@@ -1,14 +1,15 @@
 {
   "name": "@strukt-js/strukt-test-fixture",
-  "version": "0.4.3",
+  "version": "0.4.4-0",
   "license": "MIT",
   "private": true,
-  "main": "./src/app.js",
+  "main": "./src/app.ts",
   "type": "module",
   "scripts": {
     "lint": "strukt-scripts lint",
     "test": "strukt-scripts test",
-    "storybook": "strukt-scripts storybook"
+    "storybook": "strukt-scripts storybook",
+    "build:prod": "strukt-scripts build:prod"
   },
   "strukt": {
     "preset": "@strukt-js/strukt-preset"
