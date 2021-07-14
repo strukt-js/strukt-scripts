@@ -1,6 +1,6 @@
 {
   "name": "@strukt-js/babel-preset-strukt",
-  "version": "0.4.3",
+  "version": "0.4.4-0",
   "author": "Alex Wolff (@alexgwolff on github)",
   "main": "index.js",
   "publishConfig": {
